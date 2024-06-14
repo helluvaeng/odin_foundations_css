@@ -1,0 +1,75 @@
+/* styles.css - class selectors */
+.alert-text {
+    color: red;
+}
+
+/* styles.css - type selectors */
+
+div {
+    color: white;
+}
+
+/* styles.css - ID selectors */
+#title {
+    background-color: red;
+}
+
+/* styles.css - grouping selectors */
+.read {
+    color: white;
+    background-color: black;
+    /* several unique declarations */
+  }
+  
+.unread {
+    color: white;
+    background-color: black;
+    /* several unique declarations */
+  }
+
+  /* or */
+
+  .read, 
+  .unread {
+    color: white;
+    background-color: black;
+    /* several unique declarations */
+  }
+
+  .subsection.header {
+    color: red;
+  }
+  
+  .subsection#preview {
+    color: blue;
+  }
+
+  .subsection.header {
+    color: red;
+  }
+
+  /* styles.css */
+  .ancestor .contents {
+    /* some declarations */
+}
+
+/* styles.css - properties */
+p {
+    /* hex example: */
+    color: #1100ff;
+  }
+  
+  p {
+    /* rgb example: */
+    color: rgb(100, 0, 127);
+  }
+  
+  p {
+    /* hsl example: */
+    color: hsl(15, 82%, 56%);
+  }
+
+  img {
+    height: auto;
+    width: 500px;
+  }
